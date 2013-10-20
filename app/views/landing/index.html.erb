@@ -3,10 +3,10 @@
 
 <div id = "hero-box">
 	<h3>My home is your office </h3>
-	<h4>Make money by renting out your home during the day.</h4>
-		<div class = "field">
-			<%= label_tag :email %>
-			<%= text_field_tag :email, params[:email] %>
+	<h4>Join the sharing economy by renting out your home during the day.</h4>
+		<div class = "field">			
+			<%= text_field_tag :email, nil, placeholder: "email" %>
+			<%= submit_tag "Request Invite", :class => "btn btn-info" %>
 		</div>
 </div>
 
