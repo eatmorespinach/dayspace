@@ -1,34 +1,17 @@
-.navbar-inner {
-
-  border: none;
-  background:transparent !important;  
-}
-
-.navbar {
-  margin-bottom: 0px;
-}
-
 .black-trans {
   background: rgba(0,0,0,.8);
   color: white;
 }
 
 .white-trans {
-  background: rgba(255,255,255,.95);
+  background: rgba(255,255,255,.9);
+  color: black;
 }
-
-
-//For small pixel gaps on sides of nav-bar
-body {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 
 .big-box {
   margin: 5% auto 0 auto;
   padding-top: 20px;
-  width: 400px;
+  width: 600px;
 }
 
 
