@@ -18,9 +18,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'sorcery'
 gem 'faker'
 
+
 # For debugging
 gem 'pry'
-
+gem "binding_of_caller"
 
 # Use CoffeeScript for .js.coffee assets and views
 # gem 'coffee-rails', '~> 4.0.0'

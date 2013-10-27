@@ -3,7 +3,8 @@ Dayspace::Application.routes.draw do
 
   get "about" => "contents#about"
 
-
+  post 'users' => "users#create"
+  get 'landing/index' => "users#new" 
 
   root :to => "landing#index"
 
