@@ -1,28 +1,47 @@
-<div class = "big-box">
 
-	<div id = "box-1" div class = "hero-box white-trans">
+
+<div class = "row">
+	<div id = "box-1" div class = "col-md-6 col-md-offset-3 white-trans">
 		<h2>My home is your workspace </h2>
-		<h4><%= simple_format "Join the sharing economy \n by renting out your home during the day."%></h4>
+		<h4><%= simple_format "Join the sharing economy by renting out your home during the day."%></h4>
 	</div>
-
-	<div id = "box-2" class = "black-trans">			
-		<%= text_field_tag :email, nil, placeholder: "email", class: "form-control" %>
-		<h4>I'd like to </h4>
-		
-		<label class= "checkbox-inline">
-			<input type= "checkbox" id="inlineCheckbox1" value="provide my space"> <h4>provide my space</h4>
-		</label>
-		<label class= "checkbox-inline">
-			<input type= "checkbox" id="inlineCheckbox2" value="rent space"> <h4>rent space</h4>
-		</label>
-
-		
-		<%= submit_tag "Add to Waitlist", class: "btn btn-lg btn-default hero-button" %>
-
-	</div>
-			
-
 </div>
+
+
+<div class = "row">
+	<div id = "box-2" class = "col-md-6 col-md-offset-3 black-trans">			
+		
+		<div class = "row">
+			<div class = "col-md-8 col-md-offset-2">
+
+				<h4>I'd like to</h4>
+				<label class= "checkbox-inline">
+					<input type= "checkbox" id="inlineCheckbox1" value="provide my space"> provide my space
+				</label>
+				<label class= "checkbox-inline">
+					<input type= "checkbox" id="inlineCheckbox2" value="rent space"> rent space
+				</label>
+
+				
+			
+			</div>
+		</div>
+
+
+	<div class = "row">
+		<div class = "col-md-8 col-md-offset-2">
+			<%= text_field_tag :email, nil, placeholder: "email", class: "form-control" %>
+		</div>
+	</div>
+
+		<%= submit_tag "Request Invite", class: "btn btn-lg btn-primary hero-button" %>
+	
+	</div>
+</div>
+
+
+
+
 
 
 

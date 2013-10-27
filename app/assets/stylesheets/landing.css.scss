@@ -1,9 +1,56 @@
-// Place all the styles related to the landing controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.black-trans {
+  background: rgba(0,0,0,.9);
+  color: white;
+}
+
+.white-trans {
+  background: rgba(255,255,255,.95);
+  color: black;
+}
+
+#box-1 {
+	margin-top: 8%;
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+}
+
+#box-2 {
+  text-align: center;
+  padding: 25px 10px 20px 25px;
+}
+
+.checkbox-inline {
+  font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 22px;  
+  padding-bottom: 26px;
+}
 
 
 
+
+
+#inlineCheckbox1 {
+  margin-top: 9px;
+}
+
+#inlineCheckbox2 {
+	margin-top: 9px;
+}
+
+.form-control {
+	width: 98%;
+}
+
+//.landing-text-field {
+//	margin-top: 50px;	
+//}
+
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 
 
 

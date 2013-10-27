@@ -1,5 +1,10 @@
 Dayspace::Application.routes.draw do
 
+
+  get "about" => "contents#about"
+
+
+
   root :to => "landing#index"
 
 
