@@ -1,24 +1,29 @@
 class UsersController < ApplicationController
 
+	
 	def new
-		@user = User.new
-		#is new even being loading in to start?
+		@user = User.new	
 	end
 
 	def create
-		@user.find(params[:user])
-		# @user = User.create(params[:user])
+		@user = User.new(user_params)
 		@user.save
-		binding.pry
-		redirect_to about_path, :alert => "Welcome to DaySpace!"
-
-		# render :text => "We save dup. URL: #{params[:email]}"
+		redirect_to about_path
 	end
 
-	# private
-	# 	def user_params
-	# 		params.require(:user).permit(:email)
-	# 	end
+	def update
+		
+	end
+
+	def index
+		
+	end
+
+	private
+
+		def user_params
+			params.require(:user).permit(:email)
+		end
 
 end
 
