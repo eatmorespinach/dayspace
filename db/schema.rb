@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131027035345) do
+ActiveRecord::Schema.define(version: 20131101002707) do
 
   create_table "listings", force: true do |t|
     t.integer  "work_spots"
@@ -27,8 +27,9 @@ ActiveRecord::Schema.define(version: 20131027035345) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "email"
-    t.integer  "role"
     t.integer  "phone"
+    t.boolean  "provide",    default: false
+    t.boolean  "rent",       default: false
   end
 
 end

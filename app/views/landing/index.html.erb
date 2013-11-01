@@ -1,13 +1,9 @@
-
-
 <div class = "row">
 	<div id = "box-1" div class = "col-md-6 col-md-offset-3 white-trans">
 		<h2>My home is your workspace </h2>
 		<h4><%= simple_format "Join the sharing economy by renting out your home during the day."%></h4>
 	</div>
 </div>
-
-
 
 <!-- Why must I instantiate User.new instead of user @user? -->
 
@@ -21,21 +17,22 @@
 					<h4>I'd like to</h4>
 
 					<label class = "checkbox-inline">
-						<input type = "checkbox" id="inlineCheckbox1" value="provide my space"> provide my space
-					</label>
-					<label class = "checkbox-inline">
-						<input type = "checkbox" id="inlineCheckbox2" value="rent space"> rent space
-					</label>
+						<%= f.check_box :provide %>
+						<%= f.label "Provide my space" %>
+    			</label>	
+    			<label class = "checkbox-inline">
+						<%= f.check_box :rent %>
+    				<%= f.label "Rent space" %>
+    			</label>	
+						
 
 				</div>
 			</div>
-
-
  
 		<div class = "row">
 			<div class = "col-md-8 col-md-offset-2">
 
-				<%= f.text_field "email", placeholder: "email", class: "form-control" %>
+				<%= f.text_field :email, placeholder: "email", class: "form-control" %>
 
 			</div>
 		</div>
