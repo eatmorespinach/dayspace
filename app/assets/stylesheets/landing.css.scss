@@ -1,3 +1,14 @@
+#background {
+  position: relative;
+}
+
+#bg-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 15%;
+}
+
 .black-trans {
   background: rgba(0,0,0,.9);
   color: white;
@@ -8,22 +19,27 @@
   color: black;
 }
 
-#box-1 {
-	margin-top: 8%;
-  text-align: center;
-  padding: 10px 10px 20px 10px;
+#box-1 {	
+  padding: 10px 10px 20px 30px;
 }
 
 #box-2 {
-  text-align: center;
   padding: 25px 10px 20px 25px;
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
 }
 
-.checkbox-inline {
+.checkbox label {
   font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
   font-weight: 100;
   font-size: 22px;  
-  padding-bottom: 26px;
+}
+
+#email-field {
+  margin-top:20px;
 }
 
 
