@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Dayspace::Application.config.secret_key_base = 'bbb5f98a3982137fde37651d1d3b66483530e2c1f0edc5e539cd16936e5181b084c5c498beef53227d31904416daa3809df0802e8c6338f8630405a0067db5b4'
+Dayspace::Application.config.secret_key_base = ENV['RAILS_SECRET_TOKEN']
