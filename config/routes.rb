@@ -3,6 +3,7 @@ Dayspace::Application.routes.draw do
 
   get "about" => "contents#about"
 
+  get "request_invite" => "landing#request_invite"
   # get 'landing/index' => "users#new" 
   get "landing/index"
   post 'users' => "users#create"

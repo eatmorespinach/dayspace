@@ -1,0 +1,43 @@
+<div class = "background">
+	<img src="assets/landing-bg-2.jpg" class="img-responsive" alt="Responsive image" id="background">
+</div>
+
+<div class = "bg-overlay">
+	<div id = "grind">
+		<%= form_for(User.new) do |f| %>
+
+			<div class = "row">
+				<div id = "box-2" class = "col-md-4 col-md-offset-4 black-trans">			
+					<div class = "row">
+						<div class = "col-md-8 col-md-offset-2">
+
+							<%= f.text_field :first_name, placeholder: "First Name", class: "form-control" %>
+
+							<%= f.text_field :last_name, placeholder: "Last Name", class: "form-control" %>
+
+							<%= f.text_field :phone, placeholder: "Mobile", class: "form-control" %>				
+							<br>
+							<h4>I'm interested in receiving</h4>
+
+							<label class = "checkbox">
+								<%= f.check_box :provide %>
+								<%= f.label "Cash" %>
+		    			</label>	
+		    			<label class = "checkbox">
+								<%= f.check_box :rent %>
+		    				<%= f.label "Equity" %>
+		    			</label>	
+								
+
+						</div>
+					</div>
+		 
+				<%= submit_tag "Submit", class: "btn btn-lg btn-primary hero-button" %>
+				<br>
+
+				
+			
+
+		<% end %>
+	</div>
+</div>

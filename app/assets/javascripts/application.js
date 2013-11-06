@@ -15,3 +15,14 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+
+$(document).ready(function() {
+
+	$("#play").alert("do you want to click?");
+
+  // return $("#grind").on("ajax:success", function(e, data, status, xhr) {
+  //   return $("#grind").append(xhr.responseText);
+  // }).bind("ajax:error", function(e, xhr, status, error) {
+  //   return $("#grind").append("<p>ERROR</p>");
+  // });
+});

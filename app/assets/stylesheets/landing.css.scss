@@ -1,8 +1,4 @@
-#background {
-  position: relative;
-}
-
-#bg-overlay {
+.bg-overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -43,9 +39,6 @@
 }
 
 
-
-
-
 #inlineCheckbox1 {
   margin-top: 9px;
 }
@@ -54,9 +47,11 @@
 	margin-top: 9px;
 }
 
-.form-control {
-	width: 98%;
-}
+//.form-control {
+//	width: 98%;
+//  margin-top: 35px;
+//  //  top and bottom are 40px, left and right are 0px;
+//}
 
 //.landing-text-field {
 //	margin-top: 50px;	
