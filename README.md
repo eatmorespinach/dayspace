@@ -1,7 +1,9 @@
 Dayspace allows people to rent out their homes during the day as workspace. 
 
+Using 3Hub GUI for Amazon S3 managmenet. 
 
-- Counter: 186 people have!
+
+
 
 
 

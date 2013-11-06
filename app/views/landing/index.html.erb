@@ -42,10 +42,11 @@
 					</div>
 				</div>
 
-					<%= submit_tag "Request Invite", class: "btn btn-lg btn-primary hero-button" %>
+					<%= submit_tag "Request Invite", class: "btn btn-lg btn-default hero-button" %>
 					<br>
-					<p class= "center"><%= @user + 205 %> people have requested an invite</p>
-
+					<div id= "counter" class = "center">
+						<%= @user + 95 %> people have requested an invite</p>
+					</div>
 			</div>	
 
 		<% end %>	
