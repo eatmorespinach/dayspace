@@ -1,20 +1,22 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+
 gem 'rails', '4.0.0'
+ruby '2.0.0'
 gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
 gem 'bootstrap-sass', '~> 3.0.0.0.rc'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 
 gem 'sorcery'
 gem 'faker'
-
+gem 'figaro'
 
 # For debugging
 gem 'pry'

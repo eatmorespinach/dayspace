@@ -53,6 +53,9 @@ GEM
       i18n (~> 0.5)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hike (1.2.3)
     httpauth (0.2.0)
     i18n (0.6.5)
@@ -171,6 +174,7 @@ DEPENDENCIES
   binding_of_caller
   bootstrap-sass (~> 3.0.0.0.rc)
   faker
+  figaro
   jbuilder (~> 1.2)
   jquery-rails
   meta_request
