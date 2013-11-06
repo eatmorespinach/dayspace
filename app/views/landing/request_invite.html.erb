@@ -15,19 +15,13 @@
 
 							<%= f.text_field :last_name, placeholder: "Last Name", class: "form-control" %>
 
-							<%= f.text_field :phone, placeholder: "Mobile", class: "form-control" %>				
-							<br>
-							<h4>I'm interested in receiving</h4>
+							<%= f.text_field :phone, placeholder: "Mobile number", class: "form-control" %>
 
-							<label class = "checkbox">
-								<%= f.check_box :provide %>
-								<%= f.label "Cash" %>
-		    			</label>	
-		    			<label class = "checkbox">
-								<%= f.check_box :rent %>
-		    				<%= f.label "Equity" %>
-		    			</label>	
-								
+							<%= f.text_field :city, placeholder: "City", class: "form-control" %>
+
+							<%= f.text_field :neighborhood, placeholder: "Neighborhood", class: "form-control" %>				
+							<br>
+							
 
 						</div>
 					</div>
