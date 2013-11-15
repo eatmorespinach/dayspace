@@ -5,8 +5,8 @@ class LandingController < ApplicationController
 	end
 
 	def request_invite
-		@user = User.find(params[:id])
-		@user.update_attributes
+		# @user = User.find(params[:id])
+		# @user.update_attributes
 	end
 
 end

@@ -19,8 +19,6 @@
 //= require bootstrap
 
 
-
-
 $(document).ready(function() {
 
 	$("#play").alert("do you want to click?");

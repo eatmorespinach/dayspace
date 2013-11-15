@@ -15,7 +15,7 @@
 		</div>
 
 		<!-- Why must I instantiate User.new instead of user @user? -->
-		<div id = "grind">
+
 			<%= form_for(User.new) do |f| %>
 
 				<div class = "row">
@@ -49,9 +49,9 @@
 					<%= submit_tag "Request Invite", class: "btn btn-lg btn-default hero-button" %>
 					<br>
 					<div id= "counter" class = "center">
-						<%= @user + 95 %> people have requested an invite</p>
+						<%= @user + 109 %> people have requested an invite</p>
 					</div>
-			</div>	
+	
 
 		<% end %>	
 				</div>
@@ -59,13 +59,3 @@
 		</form>
 	</div>
 	
-
-
-
-
-
-
-
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="assets/backstretch.min.js"></script> -->
-<!-- this includes the js file -->

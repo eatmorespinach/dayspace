@@ -12,13 +12,14 @@
  *= require_tree .
  */
 
+$gray_text: #AC9F9F;
+
 
 @import "bootstrap";
 @import "bootstrap/theme";
 @import "bootstrap_config.scss";
 @import "landing.css.scss";
 
-$gray_text: #AC9F9F;
 
 h1 {
 
