@@ -8,10 +8,11 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 		@user.save
-		redirect_to about_path
+		redirect_to request_invite_path
 	end
 
 	def update
+		@user = User.last
 		
 	end
 
