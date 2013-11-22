@@ -5,16 +5,18 @@ Dayspace::Application.routes.draw do
 
   get "team" => "contents#team"
 
-  get "request_invite" => "users#update"
-  # get 'landing/index' => "users#new" 
-  get "landing/index"
-  post 'users' => "users#create"
-
-
-
+  # post "request_invite" => "users#update"
   
+  get "request_invite" => "users#edit"
   
+  resources :users
+
   root :to => "landing#index"
+
+
+
+
+# get '/patients/:id', to: 'patients#', as: 'users'
 
 
 

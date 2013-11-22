@@ -6,6 +6,7 @@ development:
   database: dayspace_development
   host: localhost
   pool: 5
+  socket: /var/pgsql_socket
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

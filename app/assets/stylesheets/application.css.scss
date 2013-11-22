@@ -32,6 +32,8 @@ h2 {
 }
 
 h3 {
+	font: 'Helvetica Light', 'Helvetica', Arial, sans-serif;
+	font-weight: 100;
 	font-size: 24.5px;
 }
 
@@ -55,9 +57,17 @@ h4 {
 }
 
 
+.margin-top-forty {
+	margin-top: 40px;
+}
 
 
 
+
+
+#display {
+	display: hidden;
+}
 
 
 

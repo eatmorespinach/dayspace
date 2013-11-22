@@ -4,6 +4,8 @@
 
 <div class = "bg-overlay">
 	<div id = "grind">
+		
+
 		<%= form_for User.new do |f| %>
 
 			<div class = "row">
@@ -13,20 +15,17 @@
 			      <li><span>2.</span> Location</li>
 			      
 			    </ul>	
-					<div class = "row">
+					<div class = "user-form-1 row">
 						<div class = "col-md-8 col-md-offset-2">
 
 							<%= f.text_field :first_name, placeholder: "First Name", class: "form-control" %>
-
-							<%= f.text_field :last_name, placeholder: "Last Name", class: "form-control" %>
-							<br>
-							<br>
-							<%= f.text_field :city, placeholder: "City", class: "form-control" %>
-
+							<%= f.text_field :last_name, placeholder: "Last Name", class: "form-control clever-text" %>
+							<div id = "display">
+							</div>
+							<%= f.text_field :city, placeholder: "City", class: "form-control margin-top-forty" %>
 							<%= f.text_field :neighborhood, placeholder: "Neighborhood", class: "form-control" %>	
-
 							<%= f.text_field :phone, placeholder: "Mobile Number", class: "form-control" %>			
-							<br>	
+								
 
 						</div>
 					</div>

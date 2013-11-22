@@ -2,10 +2,3 @@
 // All this logic will automatically be available in application.js.
 
 
-$(document).ready(function() {
-
-	$("#play").click(function() {
-		alert("FINALLY. Build Momentum");
-	})
- 
-});
